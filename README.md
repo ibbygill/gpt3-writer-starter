@@ -1,3 +1,8 @@
-# buildspace 
+
 ### Welcome 👋
-This is the starter template for the [build your own AI writing assistant w/ GPT-3](https://buildspace.so/builds/ai-writer) project.
+
+AI Lyric Writer. Enter in an artist you like including some words. 
+
+### Example Artists- Drake
+
+### Example Words- Football, Winning, Discipline, Birthday
