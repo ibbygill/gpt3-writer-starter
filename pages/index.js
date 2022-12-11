@@ -46,7 +46,7 @@ const onUserChangedText = (event) => {
         </div>
       </div>
       <div className="prompt-container">
-          <textarea className="prompt-box" placeholder="start typing here" value={userInput} onChange={onUserChangedText} />
+          <textarea className="prompt-box" placeholder="enter an artist here" value={userInput} onChange={onUserChangedText} />
           <div className="prompt-buttons">
       <a className="generate-button" onClick={callGenerateEndpoint} >
       <div className="generate">
@@ -64,18 +64,6 @@ const onUserChangedText = (event) => {
       <p>{apiOutput}</p>
     </div>
   </div>
-      </div>
-      <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
-        </a>
       </div>
     </div>
   );
